@@ -7,6 +7,7 @@ const ExpenseDetails = ({title,price,date}) => {
     const year=date.getFullYear();
     const month=date.toLocaleString("en-US",{month:"long"});
     const day=date.toLocaleString("en-US",{month:"2-digit"});
+    console.log("test")
     return (
         <div className='expense-item'>
             <div className='expense-date'>
