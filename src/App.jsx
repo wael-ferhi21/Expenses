@@ -1,8 +1,10 @@
 
 
+import { useState } from "react"
 import ExpensesContainer from "./components/ExpensesContainer"
 
 function App() {
+  
   const expensesData = [
     {
       id: 1,
@@ -21,8 +23,28 @@ function App() {
       title: "Car",
       price: 800,
       date: new Date("2023-07-18")
+    },
+    {
+      id: 4,
+      title: "Car",
+      price: 800,
+      date: new Date("2027-07-18")
+    },
+    {
+      id: 5,
+      title: "Car",
+      price: 800,
+      date: new Date("2027-07-18")
+    },
+    {
+      id: 6,
+      title: "Car",
+      price: 800,
+      date: new Date("2025-07-18")
     }
   ]
+
+
 
   return (
     <div>
